@@ -111,9 +111,9 @@ h1 {
 }
 
 .ejemplo1 {
-  display: flex;
-  padding: 80px 80px;
+  display: inline-flex;
   border-bottom: 1px solid black;
+  padding:5%;
 }
 .ejemplo1 img {
   height: 500px;
@@ -201,8 +201,10 @@ footer img {
   color: rgb(128, 8, 197);
   transform: scale(1.1);
 }
-
-@media only screen and (max-width: 730px) {
+.div-hamburguesa{
+  display: none;
+}
+@media only screen and (max-width: 768px) {
   .header .nav-links {
     display: none;
   }
@@ -244,8 +246,6 @@ footer img {
     font-size: 15px;
     color: rgb(128, 1, 202);
   }
-}
-@media only screen and (max-width: 730px) {
   .nav-links {
     display: none;
   }
@@ -264,4 +264,44 @@ footer img {
   .boton .hamburgesa img:hover {
     transform: scale(1.1);
   }
+  
+  .div-hamburguesa{
+    background-color: rgb(160, 100, 209);
+    position: absolute;
+    right: 10%;
+    top: 7%;
+    padding-left: 0px;
+    width: auto;
+    display: none;
+    border-radius: 5px;
+  }
+  .menu_hamburgesa{
+    display: none;
+  }
+  .nav-hamburguesa li a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Lexend", sans-serif;
+  }
+  .nav-hamburguesa {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+.menu_hamburgesa:checked ~ .div-hamburguesa{
+  display: inline-flex;
+}
+.ejemplo1 {
+  text-align: center;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+}
+.ejemplo1 img {
+  height: 90%;
+  width: 100%;
+}
+.ejemplo1 p{
+  padding: 10px;
+}
 }/*# sourceMappingURL=style.css.map */
