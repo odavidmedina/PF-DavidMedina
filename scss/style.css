@@ -205,7 +205,9 @@ footer img {
 }
 @media only screen and (max-width: 768px) {
   body{
-    max-width: 100%;
+    width: 100vh;
+    height: 100%;
+    background: linear-gradient(to bottom right, rgb(192, 251, 255), rgba(207, 7, 191, 0.712));
   }
   .header .nav-links {
     display: none;
@@ -231,10 +233,6 @@ footer img {
   }
   .container1 a {
     height: 100%;
-  }
-  body {
-    height: 100%;
-    background: linear-gradient(to bottom right, rgb(192, 251, 255), rgba(207, 7, 191, 0.712));
   }
   .image-text {
     font-family: "Lexend", sans-serif;
