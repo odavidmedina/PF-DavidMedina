@@ -46,15 +46,10 @@
 }
 
 body {
-  height: 100vh;
-  background: linear-gradient(to bottom right, rgb(192, 251, 255), rgba(207, 7, 191, 0.712));
+  background: linear-gradient(to bottom right, rgb(192, 251, 255), rgba(207, 7, 191, 0.712)) no-repeat;
+  min-height: 100vh;
+  margin: 0;
 }
-
-.body1 {
-  height: 100%;
-  background: linear-gradient(to bottom right, rgb(192, 251, 255), rgba(207, 7, 191, 0.712));
-}
-
 h1 {
   display: flex;
   justify-content: center;
@@ -91,7 +86,7 @@ h1 {
 }
 
 .image-text {
-  font-family: "Merienda", cursive;
+  font-family: "Lexend", sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -99,7 +94,7 @@ h1 {
   background: rgba(255, 255, 255, 0.7);
   padding: 0px 35px 1px 52px;
   border-radius: 5px;
-  font-size: 19px;
+  font-size: 26px;
   color: rgb(128, 1, 202);
 }
 
@@ -131,14 +126,18 @@ footer {
   border-top: 1px solid black;
   display: flex;
   justify-content: end;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
+  width: 100%;
 }
 footer img {
   height: 40px;
   margin-right: 30px;
   margin-top: 20px;
 }
-
+.footer1{
+  bottom: 0;
+  position: relative;
+}
 .header {
   display: grid;
   grid-template-columns: auto 1fr auto;
@@ -235,7 +234,7 @@ footer img {
     background: linear-gradient(to bottom right, rgb(192, 251, 255), rgba(207, 7, 191, 0.712));
   }
   .image-text {
-    font-family: "Merienda", cursive;
+    font-family: "Lexend", sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
