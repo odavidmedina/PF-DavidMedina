@@ -205,7 +205,6 @@ footer img {
 }
 @media only screen and (max-width: 768px) {
   body{
-    width: 100vh;
     height: 100%;
     background: linear-gradient(to bottom right, rgb(192, 251, 255), rgba(207, 7, 191, 0.712));
   }
@@ -269,7 +268,7 @@ footer img {
     background-color: rgb(160, 100, 209);
     position: absolute;
     right: 10%;
-    top: 7%;
+    top: 10%;
     padding-left: 0px;
     width: auto;
     display: none;
