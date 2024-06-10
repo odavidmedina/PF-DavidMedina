@@ -12,7 +12,7 @@
   }
 }
 @keyframes slideInFromLeft {
-  0% {
+  1% {
     transform: translateX(-100%);
     opacity: 0;
   }
@@ -22,7 +22,7 @@
   }
 }
 @keyframes slideInFromRight {
-  0% {
+  1% {
     transform: translateX(100%);
     opacity: 0;
   }
